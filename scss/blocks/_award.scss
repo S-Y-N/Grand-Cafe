@@ -1,0 +1,21 @@
+.award {
+    background-color: $marsal;
+    margin-bottom: 52px;
+}
+
+.award__content {
+    padding: 120px 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 150px;
+    color: $pink;
+}
+.award__title {
+    font-size: 48px;
+    line-height: 62px;
+    letter-spacing: 1px;
+}
+.award__text {
+    font-size: 18px;
+    line-height: 27px;
+}

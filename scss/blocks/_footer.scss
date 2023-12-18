@@ -1,0 +1,33 @@
+
+.footer__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer__list {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.footer__block-author{
+    padding-top: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.cafe-name {
+    font-size: 16px;
+    color: $grey;
+}
+.author__right {
+    font-size: 16px;
+    color: $grey;
+}

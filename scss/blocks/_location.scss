@@ -1,0 +1,25 @@
+.location {
+    background-color: $olive;
+    padding: 120px 0;
+}
+
+.location__content {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: $white;
+    justify-items: center;
+}
+.location_block {
+    text-align: center;
+}
+.location--title {
+    font-size: 18px;
+    font-family: $font-second;
+    line-height: 22px;
+    margin-bottom: 15px;
+}
+.location--text {
+    font-size: 25px;
+    line-height: 36px;
+    margin-bottom: 35px;
+}

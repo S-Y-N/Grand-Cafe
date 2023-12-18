@@ -1,0 +1,23 @@
+.gallery {
+    padding: 120px 0;
+}
+.gallery__content {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:40px;
+}
+.gallery_small--photo {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 40px;
+}
+.gallery_big--photo {
+   height: 100%;
+   width: 100%;
+   overflow: hidden;
+}
+.gallery_big--img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
